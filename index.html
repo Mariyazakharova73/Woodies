@@ -4,6 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="./pages/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Nunito:wght@400;600;700;800&display=swap"
+    rel="stylesheet">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WOODIES</title>
@@ -11,16 +16,25 @@
 
 <body class="root">
 
-    <div class="page">
-     <div class="page__container">
-        <header class="header">
-          <img src="./images/header-logo.svg" alt="Логотип">
-          
-        </header>
-        <main class="content"></main>
-        <footer class="footer"></footer>
-     </div>
+  <div class="page">
+    <div class="page__container">
+      <header class="header">
+        <div class="header__logo">
+          <img class="header__logo-image" src="./images/header-logo.svg" alt="Логотип">
+          <p class="header__logo-text">WOODIES</p>
+        </div>
+        <ul class="header__menu">
+          <li class="header__menu-item">Home</li>
+          <li class="header__menu-item">About Us</li>
+          <li class="header__menu-item">How it works</li>
+          <li class="header__menu-item">Categories</li>
+        </ul>
+        <div class="header__figure"></div>
+      </header>
+      <main class="content"></main>
+      <footer class="footer"></footer>
     </div>
+  </div>
 
   <script src="./scripts/index.js"></script>
 </body>

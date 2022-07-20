@@ -1,9 +1,8 @@
 .root {
-  /* font-family: 'Inter', sans-serif;
-  color: #FFFFFF;
-  background-color: #2A2C2F;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
   font-style: normal;
-  font-weight: 400; */
+  color: #000000;
   /* Сглаживание */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

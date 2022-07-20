@@ -1,6 +1,8 @@
+/* страница 1152px, отступ слева 80px*/
 .page__container {
-  max-width: 1072px;
+  max-width: 1072px; 
   min-width: 320px;
-  margin: 0 auto;
+  margin-left: auto;
   border: 1px solid red
+
 }
