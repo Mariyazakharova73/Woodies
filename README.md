@@ -12,4 +12,4 @@
 
 **Cсылка на страницу проекта**
 
-* [Ссылка: "WOODIES"](/index.html)
+* [Ссылка: "WOODIES"](https://mariyazakharova73.github.io/Woodies/index.html)
