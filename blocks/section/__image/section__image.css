@@ -1,4 +1,16 @@
 .section__image {
   padding-right: 100px;
   object-fit: contain;
+  height: 98px;
+  max-width: 394px;
+  box-sizing: border-box;
+  border: 1px solid red;
+  display: block;
+}
+
+@media screen and (max-width: 767px) {
+  .section__image {
+    padding-right: 0;
+    height: 30px;
+  }
 }

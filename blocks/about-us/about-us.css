@@ -3,30 +3,48 @@
   background-repeat: no-repeat;
   background-position: left 114px, right bottom;
   min-height: 950px;
+  position: relative;
+  z-index: 2;
 }
 
-.about-us__wrapper-title {
+@media screen and (max-width: 1023px) {
+  .about-us::before {
+    content: '';
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+}
+
+.section__wrapper-title {
   display: flex;
   justify-content: space-between;
+  border: 1px solid red;
 }
 
-
-
-
+@media screen and (max-width: 767px) {
+  .section__wrapper-title {
+   flex-direction: column-reverse;
+  }
+}
 
 .about-us__wrapper-main {
   max-width: 448px;
-  margin-top: 40px;
+  margin-top: 144px;
   padding-right: 100px;
   border: 1px solid red;
   margin-left: auto;
 }
 
-.about-us__text {
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 49px;
-  margin: 0;
+@media screen and (max-width: 767px) {
+  .about-us__wrapper-main {
+    padding-right: 0;
+  }
 }
 
 .about-us__paragraph {
