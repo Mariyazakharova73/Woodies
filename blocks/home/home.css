@@ -1,11 +1,11 @@
 .home {
-  padding-top: 116px;
   background-image: url(../../images/home-table.png);
-  background-position: right 116px;
+  background-position: right 120px;
   background-repeat: no-repeat;
-  min-height: 747px;
+  min-height: 743px;
   position: relative;
   z-index: 2;
+  padding-top: 120px;
 }
 
 @media screen and (max-width: 1023px) {
@@ -24,7 +24,7 @@
 
 @media screen and (max-width: 767px) {
   .home {
-    padding-top: 40px;
+    padding-top: 50px;
     min-height: 400px;
     /* background-position: center 52px; */
     background-position: right 20px;
@@ -44,6 +44,7 @@
   flex-direction: column;
   gap: 16px;
   max-width: 504px;
+  border: 1px solid red;
 }
 
 @media screen and (max-width: 767px) {
@@ -73,10 +74,6 @@
   .home__paragraph {
     font-size: 25px;
   }
-}
-
-.home__word {
-  font-weight: 700;
 }
 
 .home__title {

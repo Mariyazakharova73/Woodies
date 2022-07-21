@@ -1,0 +1,44 @@
+.about-us {
+  background-image: url(../../images/about-us-figure.png), url(../../images/about-us-spoons.png);
+  background-repeat: no-repeat;
+  background-position: left 114px, right bottom;
+  min-height: 950px;
+}
+
+.about-us__wrapper-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+.about-us__wrapper-main {
+  max-width: 448px;
+  margin-top: 40px;
+  padding-right: 100px;
+  border: 1px solid red;
+  margin-left: auto;
+}
+
+.about-us__text {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 49px;
+  margin: 0;
+}
+
+.about-us__paragraph {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  margin: 0;
+}
+
+.about-us__wrapper-end {
+  max-width: 648px;
+  margin-top: 271px;
+  padding-right: 100px;
+  border: 1px solid red
+}

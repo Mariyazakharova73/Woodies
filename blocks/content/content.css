@@ -1,0 +1,21 @@
+.content {
+  /* padding-top: 120px; */
+  padding-bottom: 120px;
+  display: grid;
+  row-gap: 120px;
+  border: 1px solid red;
+}
+
+@media screen and (max-width: 1023px) {
+  .content {
+    padding-bottom: 120px;
+    row-gap: 120px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .content {
+    padding-bottom: 50px;
+    row-gap: 50px;
+  }
+}
