@@ -30,7 +30,7 @@
 
 @media screen and (max-width: 530px) {
   .about-us {
-    background-size: contain;
+    background-size: 280px;
   }
 }
 
@@ -57,7 +57,7 @@
 
 @media screen and (max-width: 767px) {
   .about-us__wrapper-main {
-    margin-top: 70px;
+    margin-top: 40px;
     padding-right: 0;
   }
 }
@@ -78,7 +78,6 @@
 
 @media screen and (max-width: 530px) {
   .about-us__wrapper-end {
-    margin-top: 50px;
-    padding-right: 0;
+    margin-top: 40px;
   }
 }

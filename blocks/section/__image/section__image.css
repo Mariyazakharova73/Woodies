@@ -14,3 +14,9 @@
     height: 40px;
   }
 }
+
+@media screen and (max-width: 530px) {
+  .section__image {
+    max-width: 250px;
+  }
+}

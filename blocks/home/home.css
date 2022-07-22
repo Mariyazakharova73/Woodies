@@ -34,6 +34,7 @@
 @media screen and (max-width: 570px) {
   .home {
     background-position: center 20px;
+    min-height: 350px;
   }
 }
 
