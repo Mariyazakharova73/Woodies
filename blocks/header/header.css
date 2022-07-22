@@ -19,24 +19,6 @@
   }
 }
 
-.header__logo {
-  display: flex;
-  gap: 8px;
-}
-
-.header__logo-image {
-  width: 30px;
-  height: 30px;
-}
-
-.header__logo-text {
-  margin: 0;
-  font-weight: 800;
-  font-size: 24px;
-  line-height: 33px;
-  letter-spacing: 0.25em;
-}
-
 .header__menu {
   margin: 0;
   padding: 0;
@@ -55,14 +37,18 @@
 
 .header__menu-item {
   list-style-type: none;
+}
+
+.header__menu-link {
   font-size: 16px;
   line-height: 22px;
   color: rgba(34, 34, 34, 0.75);
+  text-decoration: none;
+  transition: color 0.5s linear;
 }
 
-.header__menu-item:hover {
+.header__menu-link:hover {
   color: #DAA520;
-  cursor: pointer;
 }
 
 .header__figure {

@@ -37,14 +37,13 @@
 .about-us__wrapper-main {
   max-width: 448px;
   margin-top: 144px;
-  padding-right: 100px;
   margin-left: auto;
+  border: 1px solid red;
 }
 
 @media screen and (max-width: 767px) {
   .about-us__wrapper-main {
     margin-top: 40px;
-    padding-right: 0;
   }
 }
 

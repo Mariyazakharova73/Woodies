@@ -18,16 +18,16 @@
   <div class="page">
     <div class="page__container">
       <header class="header section">
-        <div class="header__logo">
-          <img class="header__logo-image" src="./images/header-logo.svg" alt="Логотип">
-          <p class="header__logo-text">WOODIES</p>
+        <div class="logo">
+          <img class="logo__image" src="./images/logo.svg" alt="Логотип">
+          <p class="logo__text">WOODIES</p>
         </div>
         <nav>
           <ul class="header__menu">
-            <li class="header__menu-item">Home</li>
-            <li class="header__menu-item">About Us</li>
-            <li class="header__menu-item">How it works</li>
-            <li class="header__menu-item">Categories</li>
+            <li class="header__menu-item"><a class="header__menu-link hover" href="#">Home</a></li>
+            <li class="header__menu-item"><a class="header__menu-link hover" href="#">About Us</a></li>
+            <li class="header__menu-item"><a class="header__menu-link hover" href="#">How it works</a></li>
+            <li class="header__menu-item"><a class="header__menu-link hover" href="#">Categories</a></li>
           </ul>
         </nav>
         <div class="header__figure"></div>
@@ -38,15 +38,15 @@
             <p class="section__paragraph">Are you looking for <span class="section__words">woodden </span> <span
                 class="section__words">furniture</span> for your place?</p>
             <h1 class="home__title">This is the Right Place</h1>
-            <button class="button" type="button">Explore Furniture</button>
+            <button type="button" class="button hover">Explore Furniture</button>
           </div>
         </section>
         <section class="about-us">
-          <div class="section__wrapper-title">
+          <div class="section__wrapper-title section_size_narrow">
             <h2 class="section__title">Who we are</h2>
-            <img class="section__image" src="./images/about-us.png" alt="О нас">
+            <img class="section__image" src="./images/about-us.png" alt="about us">
           </div>
-          <div class="about-us__wrapper-main">
+          <div class="about-us__wrapper-main section_size_narrow">
             <p class="section__paragraph"><span class="section__words">WOODIES</span> is the <span
                 class="section__words">home of modern wooden furniture</span></p>
             <p class="section__text">the answer to your need for furniture with shapes, sizes and colors.</p>
@@ -60,11 +60,11 @@
             </div>
           </div>
         </section>
-        <section class="works">
+        <section class="works section_size_narrow">
           <div>
             <div class="section__wrapper-title">
               <h2 class="section__title">How to custom</h2>
-              <img class="section__image" src="./images/works.png" alt="Kак это работает">
+              <img class="section__image" src="./images/works.png" alt="How to custom">
             </div>
             <ul class="works__cards-list">
               <li class="works__card">
@@ -97,10 +97,45 @@
               </li>
             </ul>
           </div>
-          <div class="works__button-container"><button class="button" type="button">Get Personalized Now</button></div>
+          <div class="works__button-container"><button type="button" class="button hover">Get Personalized Now</button></div>
+        </section>
+        <section class="categories section_size_narrow">
+          <div class="section__wrapper-title">
+            <h2 class="section__title">What we have</h2>
+            <img class="section__image" src="./images/categories.png" alt="categories">
+          </div>
+          <ul class="categories__cards-list">
+            <li class="categories__card-item">
+              <h3 class="categories__card-title">Desk</h3>
+              <img class="categories__card-image" src="./images/categories-desk.png" alt="Desk">
+              <button type="button" class="categories__card-button hover">Shop Now</button>
+            </li>
+            <li class="categories__card-item">
+              <h3 class="categories__card-title">Chair</h3>
+              <img class="categories__card-image" src="./images/categories-chair.png" alt="Chair">
+              <button type="button" class="categories__card-button hover">Shop Now</button>
+            </li>
+            <li class="categories__card-item">
+              <h3 class="categories__card-title">Kitchenware</h3>
+              <img class="categories__card-image" src="./images/categories-kitchenware.png" alt="Kitchenware">
+              <button type="button" class="categories__card-button hover">Shop Now</button>
+            </li>
+            <li class="categories__card-item">
+              <h3 class="categories__card-title">Book Shelf</h3>
+              <img class="categories__card-image" src="./images/categories-book-shelf.png" alt="Book Shelf">
+              <button type="button" class="categories__card-button hover">Shop Now</button>
+            </li>
+            <li class="categories__card-item">
+              <h3 class="categories__card-title">Electronics</h3>
+              <img class="categories__card-image" src="./images/categories-radio.png" alt="Electronics">
+              <button type="button" class="categories__card-button hover">Shop Now</button>
+            </li>
+          </ul>
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer">
+
+      </footer>
     </div>
   </div>
   <script src="./scripts/index.js"></script>
