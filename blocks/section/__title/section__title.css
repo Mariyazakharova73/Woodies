@@ -1,7 +1,15 @@
 .section__title {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 36px;
   line-height: 49px;
   color: #3E3F43;
   margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .section__title {
+    font-size: 25px;
+  }
 }

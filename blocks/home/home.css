@@ -26,7 +26,6 @@
   .home {
     padding-top: 50px;
     min-height: 400px;
-    /* background-position: center 52px; */
     background-position: right 20px;
     background-size: contain;
   }
@@ -60,19 +59,6 @@
   .home__description {
     text-align: center;
     margin: auto;
-  }
-}
-
-.home__paragraph {
-  margin: 0;
-  font-size: 36px;
-  line-height: 1.36;
-  color: #3E3F43;
-}
-
-@media screen and (max-width: 767px) {
-  .home__paragraph {
-    font-size: 25px;
   }
 }
 

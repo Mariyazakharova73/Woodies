@@ -9,6 +9,7 @@
 @import url(../blocks/section/__title/section__title.css);
 @import url(../blocks/section/__image/section__image.css);
 @import url(../blocks/section/__paragraph/section__paragraph.css);
+@import url(../blocks/section/__words/section__words.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/home/home.css);
