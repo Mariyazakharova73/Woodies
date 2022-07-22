@@ -34,24 +34,10 @@
   }
 }
 
-.section__wrapper-title {
-  display: flex;
-  justify-content: space-between;
-  border: 1px solid red;
-}
-
-@media screen and (max-width: 767px) {
-  .section__wrapper-title {
-    flex-direction: column-reverse;
-    align-items: center;
-  }
-}
-
 .about-us__wrapper-main {
   max-width: 448px;
   margin-top: 144px;
   padding-right: 100px;
-  border: 1px solid red;
   margin-left: auto;
 }
 
@@ -66,7 +52,6 @@
   max-width: 648px;
   margin-top: 271px;
   padding-right: 100px;
-  border: 1px solid red
 }
 
 @media screen and (max-width: 767px) {

@@ -44,14 +44,11 @@
   flex-direction: column;
   gap: 16px;
   max-width: 504px;
-  border: 1px solid red;
 }
 
 @media screen and (max-width: 767px) {
   .home__description {
     padding-top: 20px;
-    /* text-align: center;
-    align-items: center; */
     max-width: 350px;
   }
 }
