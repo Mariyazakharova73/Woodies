@@ -40,17 +40,17 @@
 }
 
 .footer__container {
-  border-top: 1px solid #C4C4C4;
-  max-width: 708px;
+  border: 1px solid #C4C4C4;
+  /* max-width: 708px; */
+  max-width: 765px;
   padding-top: 24px;
   display: flex;
   gap: 52px;
-  flex-wrap: wrap;
 }
 
 @media screen and (max-width: 1023px) {
-  .footer__container {
-    gap: 20px;
+  .footer__container  {
+    gap: 30px;
   }
 }
 
@@ -62,13 +62,7 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
-}
-
-@media screen and (max-width: 767px) {
-  .footer__column-list {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
+  border: 1px solid red;
 }
 
 .footer__list-item {
@@ -76,11 +70,6 @@
   font-size: 14px;
   line-height: 19px;
   color: #8D8D8D;
-}
-
-.footer__columns-wrapper {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .menu__list {
@@ -92,11 +81,9 @@
   border: 1px solid red;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1023px) {
   .menu__list {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+    gap: 30px;
   }
 }
 
@@ -124,21 +111,24 @@
   margin: 0;
   list-style-type: none;
   gap: 16px;
-  margin-top: 16px;
-  /* position: absolute;
-  top: 100%;
-  right: 0; */
+  margin-top: 25px;
   border: 1px solid red;
+  position: absolute;
+    top: 100%;
+    left: 0;
 }
 
 @media screen and (max-width: 767px) {
   .menu__sub-list {
+    margin-top: 0;
+    padding-top: 25px;
     /* transform: translate(0, 10%); */
     opacity: 0;
     visibility: hidden;
     transition: all .8s ease 0s;
     pointer-events: none;
     /* display: none; */
+    
   }
 }
 
@@ -163,13 +153,13 @@
   display: none;
 }
 
-/* ------------------------------------ */
+/* --------------------------------------------------------- */
 body._pc .menu__list>li:hover .menu__sub-list {
   opacity: 1;
   visibility: visible;
   /* transform: translate(0, 0); */
   pointer-events: all;
-  /* display: flex; */
+  display: flex;
 }
 
 body._touch .menu__arrow {
@@ -190,4 +180,16 @@ body._touch .menu__link {
 body._touch .menu__list>li {
   display: flex;
   align-items: center;
+}
+
+body._touch .menu__list>li._active .menu__sub-list {
+  opacity: 1;
+  visibility: visible;
+  /* transform: translate(0, 0); */
+  pointer-events: all;
+  /* display: flex; */
+}
+
+body._touch .menu__list>li._active .menu__arrow {
+  transform: rotate(-180deg);
 }
