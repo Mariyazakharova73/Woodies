@@ -4,12 +4,14 @@
   display: grid;
   row-gap: 120px;
   border: 1px solid red;
+  padding-left: 100px;
 }
 
 @media screen and (max-width: 1023px) {
   .content {
     padding-bottom: 120px;
     row-gap: 120px;
+    padding-left: 50px;
   }
 }
 
@@ -17,5 +19,7 @@
   .content {
     padding-bottom: 50px;
     row-gap: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
