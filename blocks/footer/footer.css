@@ -101,13 +101,26 @@
 
 @media screen and (max-width: 767px) {
   .menu__list {
-    min-height: 150px;
+    min-height: 130px;
     align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .menu__list {
+  flex-direction: column;
+  position: relative;
   }
 }
 
 .menu__list>li {
   position: relative;
+}
+
+@media screen and (max-width: 530px) {
+  .menu__list>li {
+  position: static;
+  }
 }
 
 .menu__link {
@@ -140,14 +153,21 @@
 @media screen and (max-width: 767px) {
   .menu__sub-list {
     margin-top: 0;
-    padding-top: 25px;
-    /* transform: translate(0, 10%); */
+    padding-top: 10px;
     opacity: 0;
     visibility: hidden;
     transition: all .8s ease 0s;
     pointer-events: none;
-    /* display: none; */
+  }
+}
 
+@media screen and (max-width: 530px) {
+  .menu__sub-list {
+    margin-top: 0;
+    padding-top: 0;
+    top: 50%;
+    left: 120px;
+    transform: translate(0, -50%);
   }
 }
 
@@ -172,43 +192,47 @@
   display: none;
 }
 
-/* --------------------------------------------------------- */
-body._pc .menu__list>li:hover .menu__sub-list {
-  opacity: 1;
-  visibility: visible;
-  /* transform: translate(0, 0); */
-  pointer-events: all;
-  display: flex;
+.menu__icon {
+  display: none;
 }
 
-body._touch .menu__arrow {
-  display: block;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-top: 10px solid #8D8D8D;
-  width: 0;
-  height: 0;
-  transition: transform .3 ease 0s;
-  margin-left: 5px;
-}
+  /* --------------------------------------------------------- */
+  body._pc .menu__list>li:hover .menu__sub-list {
+    opacity: 1;
+    visibility: visible;
+    /* transform: translate(0, 0); */
+    pointer-events: all;
+    display: flex;
+  }
 
-body._touch .menu__link {
-  flex: 1 1 auto;
-}
+  body._touch .menu__arrow {
+    display: block;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid #8D8D8D;
+    width: 0;
+    height: 0;
+    transition: transform .3 ease 0s;
+    margin-left: 5px;
+  }
 
-body._touch .menu__list>li {
-  display: flex;
-  align-items: center;
-}
+  body._touch .menu__link {
+    flex: 1 1 auto;
+  }
 
-body._touch .menu__list>li._active .menu__sub-list {
-  opacity: 1;
-  visibility: visible;
-  /* transform: translate(0, 0); */
-  pointer-events: all;
-  /* display: flex; */
-}
+  body._touch .menu__list>li {
+    display: flex;
+    align-items: center;
+  }
 
-body._touch .menu__list>li._active .menu__arrow {
-  transform: rotate(-180deg);
-}
+  body._touch .menu__list>li._active .menu__sub-list {
+    opacity: 1;
+    visibility: visible;
+    /* transform: translate(0, 0); */
+    pointer-events: all;
+    /* display: flex; */
+  }
+
+  body._touch .menu__list>li._active .menu__arrow {
+    transform: rotate(-180deg);
+  }
