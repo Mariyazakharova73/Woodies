@@ -26,14 +26,14 @@
   .home {
     min-height: 400px;
     background-position: right 95px;
-    background-size: contain;
+    background-size: 300px;
   }
 }
 
 @media screen and (max-width: 570px) {
   .home {
-    background-position: center 95px;
-    min-height: 350px;
+    background-position: center 130px;
+    background-size: 250px;
   }
 }
 
