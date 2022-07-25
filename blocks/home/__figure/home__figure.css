@@ -1,0 +1,16 @@
+.home__figure {
+  position: absolute;
+  width: 370px;
+  height: 744px;
+  background-color: #F9BDBD;
+  top: 0;
+  right: 0;
+  border-radius: 0 0 0 150px;
+  z-index: -2;
+}
+
+@media screen and (max-width: 767px) {
+  .home__figure {
+    display: none;
+  }
+}

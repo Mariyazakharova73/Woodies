@@ -1,0 +1,21 @@
+.home__description {
+  padding-top: 52px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 504px;
+}
+
+@media screen and (max-width: 767px) {
+  .home__description {
+    padding-top: 20px;
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .home__description {
+    text-align: center;
+    margin: auto;
+  }
+}

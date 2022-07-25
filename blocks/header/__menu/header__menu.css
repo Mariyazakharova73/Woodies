@@ -1,0 +1,19 @@
+.header__menu {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 48px;
+}
+
+@media screen and (max-width: 767px) {
+  .header__menu {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .header__menu {
+    max-width: 280px;
+  }
+}

@@ -1,9 +1,11 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
+
 @import url(../blocks/root/root.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/content/content.css);
 @import url(../blocks/hover/hover.css);
+@import url(../blocks/button/button.css);
 
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/__image/logo__image.css);
@@ -19,11 +21,43 @@
 @import url(../blocks/section/__size/section_size_narrrow.css);
 
 @import url(../blocks/header/header.css);
-@import url(../blocks/home/home.css);
-@import url(../blocks/about-us/about-us.css);
-@import url(../blocks/works/works.css);
-@import url(../blocks/categories/categories.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__menu-item/header__menu-item.css);
+@import url(../blocks/header/__menu-link/header__menu-link.css);
 
-@import url(../blocks/button/button.css);
+@import url(../blocks/home/home.css);
+@import url(../blocks/home/__description/home__description.css);
+@import url(../blocks/home/__title/home__title.css);
+@import url(../blocks/home/__figure/home__figure.css);
+
+@import url(../blocks/about-us/about-us.css);
+@import url(../blocks/about-us/__wrapper-main/about-us__wrapper-main.css);
+@import url(../blocks/about-us/__wrapper-end/about-us__wrapper-end.css);
+
+@import url(../blocks/works/works.css);
+@import url(../blocks/works/__cards-list/__cards-list.css);
+@import url(../blocks/works/__card/works__card.css);
+@import url(../blocks/works/__image-container/works__image-container.css);
+@import url(../blocks/works/__number/works__number.css);
+@import url(../blocks/works/__card-image/works__card-image.css);
+@import url(../blocks/works/__button-container/works__button-container.css);
+
+@import url(../blocks/categories/categories.css);
+@import url(../blocks/categories/__cards-list/categories__cards-list.css);
+@import url(../blocks/categories/__card-item/categories__card-item.css);
+@import url(../blocks/categories/__card-title/categories__card-title.css);
+@import url(../blocks/categories/__card-image/categories__card-image.css);
+@import url(../blocks/categories/__card-button/categories__card-button.css);
 
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__column-list/footer__column-list.css);
+@import url(../blocks/footer/__list-item/footer__list-item.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__list-item/footer__list-item.css);
+
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/__list/menu__list.css);
+@import url(../blocks/menu/__link/menu__link.css);
+@import url(../blocks/menu/__sub-list/menu__sub-list.css);
+@import url(../blocks/menu/__sub-link/menu__sub-link.css);

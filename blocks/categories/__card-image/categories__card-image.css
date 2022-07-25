@@ -1,0 +1,7 @@
+.categories__card-image {
+  display: block;
+  object-fit: contain;
+  object-position: center;
+  width: 246px;
+  height: 224px;
+}

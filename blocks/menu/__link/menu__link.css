@@ -1,0 +1,11 @@
+.menu__link {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #333333;
+  text-decoration: none;
+}
+
+.menu__link:hover {
+  text-decoration: underline;
+}

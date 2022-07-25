@@ -1,0 +1,19 @@
+.footer__container {
+  border-top: 1px solid #C4C4C4;
+  max-width: 770px;
+  padding-top: 24px;
+  display: flex;
+  gap: 52px;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer__container {
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__container {
+    flex-direction: column;
+  }
+}

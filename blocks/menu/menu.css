@@ -1,0 +1,41 @@
+.menu__arrow {
+  display: none;
+}
+
+/* --------------------------------------------------------- */
+body._pc .menu__list>li:hover .menu__sub-list {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
+  display: flex;
+}
+
+body._touch .menu__arrow {
+  display: block;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 10px solid #8D8D8D;
+  width: 0;
+  height: 0;
+  transition: transform .3 ease 0s;
+  margin-left: 5px;
+}
+
+body._touch .menu__link {
+  flex: 1 1 auto;
+}
+
+body._touch .menu__list>li {
+  display: flex;
+  align-items: center;
+}
+
+body._touch .menu__list>li._active .menu__sub-list {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
+}
+
+body._touch .menu__list>li._active .menu__arrow {
+  transform: rotate(-180deg);
+}

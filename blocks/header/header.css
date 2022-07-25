@@ -3,7 +3,6 @@
   align-items: center;
   gap: 115px;
   padding-top: 23px;
-  position: relative;
   padding-left: 100px;
   position: fixed;
   top: 0;
@@ -29,40 +28,4 @@
     gap: 10px;
     padding-bottom: 5px;
   }
-}
-
-.header__menu {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  gap: 48px;
-}
-
-@media screen and (max-width: 767px) {
-  .header__menu {
-    gap: 20px;
-    flex-wrap: wrap;
-  }
-}
-
-@media screen and (max-width: 530px) {
-  .header__menu {
-    max-width: 280px;
-  }
-}
-
-.header__menu-item {
-  list-style-type: none;
-}
-
-.header__menu-link {
-  font-size: 16px;
-  line-height: 22px;
-  color: rgba(34, 34, 34, 0.75);
-  text-decoration: none;
-  transition: color 0.5s linear;
-}
-
-.header__menu-link:hover {
-  color: #DAA520;
 }

@@ -1,0 +1,23 @@
+.menu__sub-list {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  gap: 16px;
+  margin-top: 25px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .menu__sub-list {
+    margin-top: 0;
+    padding-top: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .8s ease 0s;
+    pointer-events: none;
+  }
+}

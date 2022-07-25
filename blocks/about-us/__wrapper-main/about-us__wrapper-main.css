@@ -1,0 +1,11 @@
+.about-us__wrapper-main {
+  max-width: 448px;
+  margin-top: 144px;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .about-us__wrapper-main {
+    margin-top: 40px;
+  }
+}
